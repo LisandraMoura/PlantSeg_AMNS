@@ -55,11 +55,11 @@ model = dict(
     test_cfg=dict(mode='whole'))
 
 # dataset settings
-train_dataloader = dict(batch_size=16)
+train_dataloader = dict(batch_size=1)
 
 # optimizer
 optim_wrapper = dict(
-    _delete_=True,
+    delete=True,
     type='OptimWrapper',
     optimizer=dict(
         type='AdamW', lr=0.00006, betas=(0.9, 0.999), weight_decay=0.01),
