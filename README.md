@@ -1,3 +1,9 @@
+# Disclaimer
+
+This work has been created solely for academic purposes as part of the "Unsupervised Machine Learning" class. We do not claim ownership of any content presented here. All materials and content are the intellectual property of their respective creators.
+
+We recently added a tweak to the code to investigate what we identified as possible references to non-existent classes during training, which was resulting in execution failures.
+
 # PlantSeg: A Large-Scale In-the-wild Dataset for Plant Disease Segmentation
 ![Alt text](image/seg_samples.png "PlantSeg-logo")
 
